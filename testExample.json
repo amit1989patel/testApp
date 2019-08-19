@@ -1,0 +1,144 @@
+{
+  "front-version": "2.20.0",
+  "version": 3,
+  "nodes": [
+    {
+      "type": "Project",
+      "id": "59d45457-8338-4db4-a389-11fc970c331c",
+      "lastModified": "2019-08-20T00:40:01.982+05:30",
+      "name": "testJson"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.1",
+        "name": "GET"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded",
+          "items": []
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n \n  \"email\": \"amit@yopmail.com\",\n  \"password\": \"123456aA\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "localhost:3000",
+        "path": "/api/v1/users/getUsers"
+      },
+      "id": "f042ee08-3e1a-4457-b1f1-ce24f0f8ce3f",
+      "lastModified": "2019-08-20T00:40:01.983+05:30",
+      "name": "GET http://localhost:3000/api/v1/users/getUsers",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Authorization",
+          "value": " bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IkFtaXQgS3VtYXIiLCJlbWFpbCI6ImFtaXRAeW9wbWFpbC5jb20iLCJpYXQiOjE1NjYyNDEzNDksImV4cCI6MTU2NjI3MDE0OX0.tj2cqdBRIX5pVLYntsH3koBIaSVuRJlmEbi1J_bn-tM"
+        }
+      ],
+      "metaInfo": {},
+      "parentId": "59d45457-8338-4db4-a389-11fc970c331c"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded",
+          "items": []
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n \n  \"email\": \"amit@yopmail.com\",\n  \"password\": \"123456aA\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "localhost:3000",
+        "path": "/api/v1/users/login"
+      },
+      "id": "a9bb8180-b326-44e0-bc96-8b2fa5678c78",
+      "lastModified": "2019-08-20T00:40:01.983+05:30",
+      "name": "POST http://localhost:3000/api/v1/users/login",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": null
+      },
+      "parentId": "59d45457-8338-4db4-a389-11fc970c331c"
+    },
+    {
+      "type": "Request",
+      "method": {
+        "requestBody": true,
+        "link": "http://tools.ietf.org/html/rfc7231#section-4.3.3",
+        "name": "POST"
+      },
+      "body": {
+        "formBody": {
+          "overrideContentType": true,
+          "encoding": "application/x-www-form-urlencoded",
+          "items": []
+        },
+        "bodyType": "Text",
+        "autoSetLength": true,
+        "textBody": "{\n  \"name\": \"Amit Kumar\",\n  \"email\": \"amit@yopmail.com\",\n  \"password\": \"123456aA\"\n}"
+      },
+      "headersType": "Form",
+      "uri": {
+        "query": {
+          "delimiter": "&",
+          "items": []
+        },
+        "scheme": {
+          "name": "http",
+          "version": "V11"
+        },
+        "host": "localhost:3000",
+        "path": "/api/v1/users/registerUser"
+      },
+      "id": "1bc13655-0ec5-4877-80e0-fccdbbc47ac1",
+      "lastModified": "2019-08-20T00:40:01.983+05:30",
+      "name": "POST http://localhost:3000/api/v1/users/registerUser",
+      "headers": [
+        {
+          "enabled": true,
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "metaInfo": {
+        "ownerId": null
+      },
+      "parentId": "59d45457-8338-4db4-a389-11fc970c331c"
+    }
+  ]
+}
