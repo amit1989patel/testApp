@@ -30,7 +30,7 @@
     "moment": "^2.22.0",
     "morgan": "~1.7.0",
     "nodemon": "^1.17.3",
-    "pug": "^2.0.0-beta11",
+    "pug": "^3.0.1",
     "rootrequire": "^1.0.0",
     "serve-favicon": "~2.3.0",
     "sqlite3": "^4.1.0"
